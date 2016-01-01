@@ -1,13 +1,19 @@
-# :package_name
+# :package_namespace
 
+[![Twitter][ico-twitter]][link-twitter]
+[![Github Release][ico-release]][link-release]
 [![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
+[![Latest Version Pre on Packagist][ico-version-pre]][link-packagist]
+[![Software License][ico-mit-license]](LICENSE.md)
+[![Software License on Packagist][ico-packagist-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
+[![Minimum PHP Version][ico-php]](https://php.net/)
 
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```:vendor``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
+**Note:** Replace ```:author_name``` ```:author_username``` ```:twitter_username``` ```:author_website``` ```:author_email``` ```:vendor``` ```:package_name``` ```:vendor_namespace``` ```:package_namespace``` ```:package_description``` ```:php_version```
+with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
 PSRs you support to avoid any confusion with users and contributors.
@@ -55,11 +61,17 @@ If you discover any security related issues, please email :author_email instead 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-version-pre]: https://img.shields.io/packagist/vpre/:vendor/:package_name.svg?style=flat-square
+[ico-mit-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-packagist-license]: https://img.shields.io/packagist/l/:vendor/:package_name.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/:vendor/:package_name/master.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/:vendor/:package_name.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/:vendor/:package_name.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square
+[ico-twitter]: https://img.shields.io/badge/twitter-%40:twitter_username-blue.svg?style=flat-square
+[ico-release]: https://img.shields.io/github/release/:vendor/:package_name.svg?style=flat-square
+[ico-tag]: https://img.shields.io/github/tag/:vendor/:package_name.svg?style=flat-square
+[ico-php]: https://img.shields.io/badge/php-%3E%3D%20:php_version-8892BF.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/:vendor/:package_name
 [link-travis]: https://travis-ci.org/:vendor/:package_name
@@ -68,3 +80,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-downloads]: https://packagist.org/packages/:vendor/:package_name
 [link-author]: https://github.com/:author_username
 [link-contributors]: ../../contributors
+[link-twitter]: https://twitter.com/:twitter_username
+[link-release]: https://github.com/:vendor/:package_name/releases
+[link-tag]: https://github.com/:vendor/:package_name/tags
+[link-download-git]: https://github.com/:vendor/:package_name/archive/master.zip
